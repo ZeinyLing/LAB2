@@ -68,6 +68,16 @@ model_ft.reset_classifier(num_classes=n_class)
 | `pkls/` | Model weights (.pkl) | 
 - **Because of the file size limit, you can download the model weights (.pkl files) from Google Cloud :** [pkls](https://drive.google.com/drive/folders/1MaRhkFk5fxD5Tn6RfLvimDjYHDQ80gMe?usp=sharing)
 ---
+## Model Performance Summary  
+- **voting by ResNet34, ResNet50, ResNet18 , VGG16**
+- **Accuracy:** 93.27%  
+- **F1-score:** 0.926  
+| Activation function | EEGNet | DeepConvNet |
+|:--|:--:|:--:|
+| ReLU | 15 | **85.90%** |
+| LeakyReLU | 20 | **90.54%** |
+| ELU | 25 | **81.09%** |
+---
 ## Best single model (ResNet34)
 
 ✅ Final performance on test set：  
@@ -84,21 +94,4 @@ model_ft.reset_classifier(num_classes=n_class)
 <img src="cm_plots/cm_voted.png" width="450">
 
 ---
-## Model Performance Summary  
 
-| Model | Epochs | Test Accuracy | Test F1-score |
-|:--|:--:|:--:|:--:|
-| ResNet18 | 15 | **85.90%** | **0.897** |
-| ResNet18 | 20 | **90.54%** | **0.928** |
-| ResNet18 | 25 | **81.09%** | **0.868** |
-| **ResNet34** | 20 | **92.95%** | **0.945** |
-| ResNet50 | 20 | **88.78%** | **0.916** |
-| ResNet101 | 20 | **86.06%** | **0.899** |
-| ResNet152 | 20 | **83.17%** | **0.880** |
-| ResNet26D | 20 | **83.97%** | **0.885** |
-| EfficientNet (tf_efficientnet_b0) | 20 | **76.44%** | **0.841** |
-| DenseNet161 | 20 | **87.50%** | **0.907** |
-| VGG16 | 20 | **89.90%** | **0.923** |
-| Vision Transformer (ViT Base Patch16 224) | 20 | **77.08%** | **0.844** |
-| **Voting Ensemble** | 20 |**93.27%** |  **0.926** |
----
