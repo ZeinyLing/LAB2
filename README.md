@@ -89,7 +89,7 @@ model_ft.reset_classifier(num_classes=n_class)
 <img src="cm_plots/cm_voted.png" width="450">
 
 ---
-| Activation Function | EEGNet | DeepConvNet |
+| Activation Function |  EEGNet  | DeepConvNet |
 |:-----------:|:-----------:|:-----------:|
 | **ReLU** | 85.15% | **85.90%** |
 | **LeakyReLU** | 88.20% | **90.54%** |
