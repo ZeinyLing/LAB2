@@ -72,11 +72,6 @@ model_ft.reset_classifier(num_classes=n_class)
 - **voting by ResNet34, ResNet50, ResNet18 , VGG16**
 - **Accuracy:** 93.27%  
 - **F1-score:** 0.926  
-| Activation Function | EEGNet Accuracy | DeepConvNet Accuracy |
-|:--------------------:|:---------------:|:--------------------:|
-| **ReLU** | 85.15% | **85.90%** |
-| **LeakyReLU** | 88.20% | **90.54%** |
-| **ELU** | 81.25% | **81.09%** |
 ---
 ## Best single model (ResNet34)
 
@@ -94,4 +89,8 @@ model_ft.reset_classifier(num_classes=n_class)
 <img src="cm_plots/cm_voted.png" width="450">
 
 ---
-
+| Activation Function | EEGNet | DeepConvNet |
+|:-----------:|:-----------:|:-----------:|
+| **ReLU** | 85.15% | **85.90%** |
+| **LeakyReLU** | 88.20% | **90.54%** |
+| **ELU** | 81.25% | **81.09%** |
