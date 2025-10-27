@@ -67,26 +67,7 @@ model_ft.reset_classifier(num_classes=n_class)
 | `plots/` | Accuracy & F1-score curves |
 | `pkls/` | Model weights (.pkl) | 
 - **Because of the file size limit, you can download the model weights (.pkl files) from Google Cloud :** [pkls](https://drive.google.com/drive/folders/1MaRhkFk5fxD5Tn6RfLvimDjYHDQ80gMe?usp=sharing)
----
-## Model Performance Summary  
-- **voting by ResNet34, ResNet50, ResNet18 , VGG16**
-- **Accuracy:** 93.27%  
-- **F1-score:** 0.926  
----
-## Best single model (ResNet34)
 
-✅ Final performance on test set：  
-- **Accuracy:** 92.95%  
-- **F1-score:** 0.945  
-<img src="cm_plots/cm_5_resnet34_ep_20.pkl.png" width="450">
-
-## Voting Ensemble 
-
-✅ Final performance on test set：  
-- **voting by ResNet34, ResNet50, ResNet18 , VGG16**
-- **Accuracy:** 93.27%  
-- **F1-score:** 0.926  
-<img src="cm_plots/cm_voted.png" width="450">
 
 ---
 | Activation Function |  EEGNet  | DeepConvNet |
