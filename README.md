@@ -2,7 +2,7 @@
 EEG Classification with BCI competition dataset
 
 ## Datasets
-[Chest X-ray](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia) on Kaggle
+The training and testing data in [BCI Competition III – IIIb](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
 | Dataset | NORMAL | PNEUMONIA |
 |:--|:--:|:--:|
 | Train | **1341** | **3875** |
