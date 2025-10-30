@@ -67,8 +67,8 @@ model_ft.reset_classifier(num_classes=n_class)
 | `plots/` | Accuracy & F1-score curves |
 | `pkls/` | Model weights (.pkl) | 
 - **Because of the file size limit, you can download the model weights (.pkl files) from Google Cloud :** [pkls](https://drive.google.com/drive/folders/1MaRhkFk5fxD5Tn6RfLvimDjYHDQ80gMe?usp=sharing)
-
-
+## Results
+---
 ### Hyper Parameters - Set1
 - **Batch size:** 64  
 - **Learning rate:** 1e-2  
