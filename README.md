@@ -86,11 +86,11 @@ model_ft.reset_classifier(num_classes=n_class)
 
 ### Experimental Settings
 - **Batch size:** 64  
-- **Learning rate:** 1e-2  
-- **Epochs:** 150  
+- **Learning rate:** 1e-3 (EEGNet) / 1e-4 (DeepConvNet)
+- **Epochs:** 1000 (EEGNet) / 3000 (DeepConvNet) 
 - **Optimizer:** Adam  
 - **Loss function:** `torch.nn.CrossEntropyLoss()`  
-- **Activation function:** ELU()
+- **Activation function:** `ELU()` / `ReLU()` / `LeakyReLU()`
 ### Performance Comparison under Different Activation Functions
 
 | Activation Function |   EEGNet   | DeepConvNet |
