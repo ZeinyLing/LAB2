@@ -75,14 +75,12 @@ model_ft.reset_classifier(num_classes=n_class)
 - **Epochs:** 150  
 - **Optimizer:** Adam  
 - **Loss function:** `torch.nn.CrossEntropyLoss()`  
-- **Activation function:** ELU()
+- **Activation function:** `ELU()`
 ### Performance Comparison under Different Activation Functions
 
 | Activation Function |  EEGNet  | DeepConvNet |
 |:--------------------:|:----------:|:------------:|
-| **ReLU**       | 85.15% | **85.90%** |
-| **LeakyReLU**  | 88.20% | **90.54%** |
-| **ELU**        | 81.25% | **81.09%** |
+| **ELU**        | 0.8593 | 0.8111 |
 
 ### Hyper Parameters - Set2
 - **Batch size:** 64  
