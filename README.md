@@ -95,9 +95,9 @@ model_ft.reset_classifier(num_classes=n_class)
 
 <table>
   <tr>
-    <th style="text-align:center; width:180px;">Activation Function</th>
-    <th style="text-align:center; width:150px;">EEGNet</th>
-    <th style="text-align:center; width:150px;">DeepConvNet</th>
+    <th style="text-align:center; width:200px;">Activation Function</th>
+    <th style="text-align:center; width:200px;">EEGNet</th>
+    <th style="text-align:center; width:200px;">DeepConvNet</th>
   </tr>
   <tr>
     <td style="text-align:center;">ReLU</td>
