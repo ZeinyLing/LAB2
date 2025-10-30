@@ -3,27 +3,26 @@ EEG Classification with BCI competition dataset
 
 ## Datasets
 The training and testing data in BCI Competition III – IIIb.
-| Dataset | NORMAL | PNEUMONIA |
-|:--|:--:|:--:|
-| Train | **1341** | **3875** |
-| Val | **8** | **8** |
-| Test | **234** | **390** |
-| **Total** | **1583** | **4273** |
+
 ---
 
 ## 📁 Project Structure
 ```
-LAB1/
+LAB2/
 │
-├── preprocessing.py     # Image preprocessing (CLAHE, resize to 512×512)
-├── train.py             # Training pipeline for classification models
+├─── models              # Image preprocessing (CLAHE, resize to 512×512)
+│    ├── model_ELU
+│    ├── model_ReLU
+│    └── model_LeakyReLU
+│
+├── dataloader.py        # Image preprocessing (CLAHE, resize to 512×512)
+├── main.py              # Training pipeline for classification models
 ├── inference.py         # Model inference on test dataset
 ├── voting.py            # Voting ensemble of multiple trained models
-├── draw.py              # Draw curves from csvs
 │
 ├── csvs/                # Training and validation logs (acc, F1 per epoch)
 ├── cm_plot/             # Confusion matrix heatmaps
-├── plots_LAB2/               # Accuracy and Loss curves
+├── plots_LAB2/          # Accuracy and Loss curves
 └── pkls/                # Trained model weights (.pkl) -->　In Google Cloud
 ```
 ---
