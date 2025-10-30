@@ -84,14 +84,14 @@ model_ft.reset_classifier(num_classes=n_class)
 | **LeakyReLU**  | 88.20% | **90.54%** |
 | **ELU**        | 81.25% | **81.09%** |
 
-### Experimental Settings
+### Hyper Parameters - Set2
 - **Batch size:** 64  
 - **Learning rate:** 1e-3 (EEGNet) / 1e-4 (DeepConvNet)
 - **Epochs:** 1000 (EEGNet) / 3000 (DeepConvNet) 
 - **Optimizer:** Adam  
 - **Loss function:** `torch.nn.CrossEntropyLoss()`  
 - **Activation function:** `ELU()` / `ReLU()` / `LeakyReLU()`
-### Performance Comparison under Different Activation Functions
+### Accuracy under Hyper Parameters - Set 2
 
 | Activation Function |   EEGNet   | DeepConvNet |
 |:--------------------:|:----------:|:------------:|
