@@ -10,11 +10,11 @@ The training and testing data in BCI Competition III – IIIb.
 ```
 LAB2/
 │
-├─── models              # EEGNet and DeepConvNet
+├── models              # EEGNet and DeepConvNet
 │    ├── model_ELU
 │    ├── model_ReLU
 │    └── model_LeakyReLU
-├─── data_LAB2            # Datasets
+├── data_LAB2            # Datasets
 │    ├── S4b_train.npz
 │    ├── S4b_test.npz
 │    ├── X11b_train.npz
@@ -24,7 +24,7 @@ LAB2/
 ├── main.py              # Training pipeline for classification models
 │
 ├── plots_LAB2/          # Accuracy and Loss curves
-├── plots_LAB2/          # Accuracy and Loss curves
+├── pkls_LAB2/          # Accuracy and Loss curves
 └── Source/              # Trained model weights (.pkl) -->　In Google Cloud
 ```
 - **Because of the file size limit, you can download the model weights (.pkl files) from Google Cloud :** [pkls](https://drive.google.com/drive/folders/1MaRhkFk5fxD5Tn6RfLvimDjYHDQ80gMe?usp=sharing)
