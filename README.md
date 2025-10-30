@@ -77,11 +77,12 @@ model_ft.reset_classifier(num_classes=n_class)
 - Loss function: torch.nn.CrossEntropyLoss()
 - Activation function: ELU()
 '''
-| Activation Function |  EEGNet  | DeepConvNet |
-|:-----------:|:-----------:|:-----------:|
-| **ReLU** | 85.15% | **85.90%** |
-| **LeakyReLU** | 88.20% | **90.54%** |
-| **ELU** | 81.25% | **81.09%** |
+| Activation Function | EEGNet | DeepConvNet |
+| :-----------------: | :---------: | :---------: |
+|       **ReLU**      | 85.15% |  **85.90%** |
+|    **LeakyReLU**    | 88.20% |  **90.54%** |
+|       **ELU**       | 81.25% |    81.09%   |
+
 '''
 - Batch size = 64
 - Learning rate = 1e-2
@@ -90,8 +91,9 @@ model_ft.reset_classifier(num_classes=n_class)
 - Loss function: torch.nn.CrossEntropyLoss()
 - Activation function: ELU()
 '''
-| Activation Function |  EEGNet  | DeepConvNet |
-|:-----------:|:-----------:|:-----------:|
-| **ReLU** | 85.15% | **85.90%** |
-| **LeakyReLU** | 88.20% | **90.54%** |
-| **ELU** | 81.25% | **81.09%** |
+| Activation Function | EEGNet | DeepConvNet |
+| :-----------------: |  :---------: | :---------: |
+|       **ReLU**      | 85.15% |  **85.90%** |
+|    **LeakyReLU**    | 88.20% |  **90.54%** |
+|       **ELU**       | 81.25% |    81.09%   |
+
