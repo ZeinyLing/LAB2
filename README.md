@@ -25,8 +25,8 @@ LAB2/
 ├── DeepConvNe_main.py   # Training pipeline for classification models
 │
 ├── plots_LAB2/          # Accuracy and Loss curves
-├── pkls_LAB2/          # Accuracy and Loss curves
-└── Source/              # Trained model weights (.pkl) -->　In Google Cloud
+├── pts_LAB2/            # Trained model weights (.pt)
+└── Source/              # 
 ```
 - **Because of the file size limit, you can download the model weights (.pkl files) from Google Cloud :** [pkls](https://drive.google.com/drive/folders/1MaRhkFk5fxD5Tn6RfLvimDjYHDQ80gMe?usp=sharing)
 ---
