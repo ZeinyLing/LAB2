@@ -71,10 +71,10 @@ model_ft.reset_classifier(num_classes=n_class)
 ---
 ## Results
 ### Hyper Parameters - Set1
-- **Batch size:** 64  
-- **Learning rate:** 1e-2  
-- **Epochs:** 150  
-- **Optimizer:** Adam  
+- **Batch size:** `64`  
+- **Learning rate:** `1e-2`  
+- **Epochs:** `150`  
+- **Optimizer:** `Adam`  
 - **Loss function:** `torch.nn.CrossEntropyLoss()`  
 - **Activation function:** `ELU()`
 ###  Accuracy under Hyper Parameters - Set 1
@@ -82,10 +82,10 @@ model_ft.reset_classifier(num_classes=n_class)
 |:--------------------:|:----------:|:------------:|
 | **ELU**        | 85.93% | 81.11% |
 ### Hyper Parameters - Set2
-- **Batch size:** 64  
-- **Learning rate:** 1e-3 (EEGNet) / 1e-4 (DeepConvNet)
-- **Epochs:** 1000 (EEGNet) / 3000 (DeepConvNet) 
-- **Optimizer:** Adam  
+- **Batch size:** `64`  
+- **Learning rate:** `1e-3` (EEGNet) / `1e-4` (DeepConvNet)
+- **Epochs:** `1000` (EEGNet) / `3000` (DeepConvNet) 
+- **Optimizer:** `Adam`  
 - **Loss function:** `torch.nn.CrossEntropyLoss()`  
 - **Activation function:** `ELU()` / `ReLU()` / `LeakyReLU()`
 ### Accuracy under Hyper Parameters - Set 2
