@@ -21,7 +21,8 @@ LAB2/
 │    └── X11b_test.npz
 │ 
 ├── dataloader.py        # Image preprocessing (CLAHE, resize to 512×512)
-├── main.py              # Training pipeline for classification models
+├── EEGNet_main.py       # Training pipeline for classification models
+├── DeepConvNe_main.py   # Training pipeline for classification models
 │
 ├── plots_LAB2/          # Accuracy and Loss curves
 ├── pkls_LAB2/          # Accuracy and Loss curves
