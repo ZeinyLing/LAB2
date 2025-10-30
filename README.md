@@ -88,6 +88,7 @@ model_ft.reset_classifier(num_classes=n_class)
 - Optimizer: Adam
 - Loss function: torch.nn.CrossEntropyLoss()
 - Activation function: ELU()
+---
 | Activation Function |  EEGNet  | DeepConvNet |
 |:-----------:|:-----------:|:-----------:|
 | **ReLU** | 85.15% | **85.90%** |
