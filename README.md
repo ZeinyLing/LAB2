@@ -24,8 +24,10 @@ LAB2/
 ├── main.py              # Training pipeline for classification models
 │
 ├── plots_LAB2/          # Accuracy and Loss curves
+├── plots_LAB2/          # Accuracy and Loss curves
 └── Source/              # Trained model weights (.pkl) -->　In Google Cloud
 ```
+- **Because of the file size limit, you can download the model weights (.pkl files) from Google Cloud :** [pkls](https://drive.google.com/drive/folders/1MaRhkFk5fxD5Tn6RfLvimDjYHDQ80gMe?usp=sharing)
 ---
 ## Code main.py
 Different models choose different ==> model_ft
@@ -66,7 +68,6 @@ model_ft.reset_classifier(num_classes=n_class)
 | `cm_plot/` | Confusion matrix heatmaps | 
 | `plots/` | Accuracy & F1-score curves |
 | `pkls/` | Model weights (.pkl) | 
-- **Because of the file size limit, you can download the model weights (.pkl files) from Google Cloud :** [pkls](https://drive.google.com/drive/folders/1MaRhkFk5fxD5Tn6RfLvimDjYHDQ80gMe?usp=sharing)
 ---
 ## Results
 ### Hyper Parameters - Set1
