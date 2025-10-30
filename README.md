@@ -77,11 +77,9 @@ model_ft.reset_classifier(num_classes=n_class)
 - **Loss function:** `torch.nn.CrossEntropyLoss()`  
 - **Activation function:** `ELU()`
 ### Performance Comparison under Different Activation Functions
-
 | Activation Function |  EEGNet  | DeepConvNet |
 |:--------------------:|:----------:|:------------:|
-| **ELU**        | 0.8593 | 0.8111 |
-
+| **ELU**        | 85.93% | 81.11% |
 ### Hyper Parameters - Set2
 - **Batch size:** 64  
 - **Learning rate:** 1e-3 (EEGNet) / 1e-4 (DeepConvNet)
@@ -93,9 +91,9 @@ model_ft.reset_classifier(num_classes=n_class)
 
 | Activation Function |   EEGNet   | DeepConvNet |
 |:--------------------:|:----------:|:------------:|
-| **ReLU**             |   85.15%   |   **85.90%** |
-| **LeakyReLU**        | **88.20%** |   **90.54%** |
-| **ELU**              |   81.25%   |    81.09%    |
+| **ReLU**             | **87.13%** |   82.59% |
+| **LeakyReLU**        | **87.13%** |   83.15% |
+| **ELU**              |   86.39%   |   82.22% |
 
 
 
