@@ -79,7 +79,7 @@ model_ft.reset_classifier(num_classes=n_class)
 ### Performance Comparison under Different Activation Functions
 
 | Activation Function |  EEGNet  | DeepConvNet |
-|:--------------------:|:--------------------:|:--------------------:|
+|:--------------------:|:----------:|:------------:|
 | **ReLU**       | 85.15% | **85.90%** |
 | **LeakyReLU**  | 88.20% | **90.54%** |
 | **ELU**        | 81.25% | **81.09%** |
@@ -94,7 +94,7 @@ model_ft.reset_classifier(num_classes=n_class)
 ### Performance Comparison under Different Activation Functions
 
 | Activation Function |  EEGNet  | DeepConvNet |
-|:--------------------:|:--------------------:|:--------------------:|
+|:--------------------:|:----------:|:------------:|
 | **ReLU**       | 85.15% | **85.90%** |
 | **LeakyReLU**  | 88.20% | **90.54%** |
 | **ELU**        | 81.25% | **81.09%** |
