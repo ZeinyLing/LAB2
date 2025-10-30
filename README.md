@@ -23,7 +23,7 @@ LAB1/
 │
 ├── csvs/                # Training and validation logs (acc, F1 per epoch)
 ├── cm_plot/             # Confusion matrix heatmaps
-├── plots/               # Accuracy and F1-score curves
+├── plots_LAB2/               # Accuracy and Loss curves
 └── pkls/                # Trained model weights (.pkl) -->　In Google Cloud
 ```
 ---
