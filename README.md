@@ -69,14 +69,14 @@ model_ft.reset_classifier(num_classes=n_class)
 - **Because of the file size limit, you can download the model weights (.pkl files) from Google Cloud :** [pkls](https://drive.google.com/drive/folders/1MaRhkFk5fxD5Tn6RfLvimDjYHDQ80gMe?usp=sharing)
 
 
-### Experimental Settings
+### Hyper Parameters - Set1
 - **Batch size:** 64  
 - **Learning rate:** 1e-2  
 - **Epochs:** 150  
 - **Optimizer:** Adam  
 - **Loss function:** `torch.nn.CrossEntropyLoss()`  
 - **Activation function:** `ELU()`
-### Performance Comparison under Different Activation Functions
+###  Accuracy under Hyper Parameters - Set 1
 | Activation Function |  EEGNet  | DeepConvNet |
 |:--------------------:|:----------:|:------------:|
 | **ELU**        | 85.93% | 81.11% |
