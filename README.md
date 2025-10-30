@@ -93,12 +93,27 @@ model_ft.reset_classifier(num_classes=n_class)
 - **Activation function:** ELU()
 ### Performance Comparison under Different Activation Functions
 
-<pre>
-| Activation Function |   EEGNet   | DeepConvNet |
-|----------------------|------------|--------------|
-| ReLU                 |   85.15%   |    85.90%    |
-| LeakyReLU            |   88.20%   |    90.54%    |
-| ELU                  |   81.25%   |    81.09%    |
-</pre>
+<table style="width:500px; text-align:center;">
+<tr>
+  <th style="width:200px;">Activation Function</th>
+  <th style="width:150px;">EEGNet</th>
+  <th style="width:150px;">DeepConvNet</th>
+</tr>
+<tr>
+  <td>ReLU</td>
+  <td>85.15%</td>
+  <td><b>85.90%</b></td>
+</tr>
+<tr>
+  <td>LeakyReLU</td>
+  <td><b>88.20%</b></td>
+  <td><b>90.54%</b></td>
+</tr>
+<tr>
+  <td>ELU</td>
+  <td>81.25%</td>
+  <td>81.09%</td>
+</tr>
+</table>
 
 
