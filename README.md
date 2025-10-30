@@ -10,23 +10,24 @@ The training and testing data in BCI Competition III – IIIb.
 ```
 LAB2/
 │
-├─── models              # Image preprocessing (CLAHE, resize to 512×512)
+├─── models              # EEGNet and DeepConvNet
 │    ├── model_ELU
 │    ├── model_ReLU
 │    └── model_LeakyReLU
-│
+├─── data_LAB2            # Datasets
+│    ├── S4b_train.npz
+│    ├── S4b_test.npz
+│    ├── X11b_train.npz
+│    └── X11b_test.npz
+│ 
 ├── dataloader.py        # Image preprocessing (CLAHE, resize to 512×512)
 ├── main.py              # Training pipeline for classification models
-├── inference.py         # Model inference on test dataset
-├── voting.py            # Voting ensemble of multiple trained models
 │
-├── csvs/                # Training and validation logs (acc, F1 per epoch)
-├── cm_plot/             # Confusion matrix heatmaps
 ├── plots_LAB2/          # Accuracy and Loss curves
-└── pkls/                # Trained model weights (.pkl) -->　In Google Cloud
+└── Source/              # Trained model weights (.pkl) -->　In Google Cloud
 ```
 ---
-## Code tran.py
+## Code main.py
 Different models choose different ==> model_ft
 
 For resnet model:
