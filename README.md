@@ -3,7 +3,7 @@ EEG Classification with BCI competition dataset
 
 ## Datasets
 The training and testing data in BCI Competition III – IIIb.
-
+<img src="Source/prepare data.png" width="600">
 ---
 
 ## 📁 Project Structure
