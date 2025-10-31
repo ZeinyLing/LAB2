@@ -36,24 +36,15 @@ For EEGNet model:
 For DeepConvNet model:
 - DeepConvNet_main.py
 ```
-# select model
-model_select = 'vgg16'
+#
+from models.model_ELU import EEGNet
+#from models.model_ReLU import EEGNet
+#from models.model_LeakyReLU import EEGNet
 
-# For vgg efficientnet densenet  resnet
-model_ft = timm.create_model(model_select, pretrained=True)
-
-# For 'vit_base_patch16_224'
-#model_ft = timm.create_model(model_select, pretrained=True,img_size=512) 
-
-# For resnet model
-'''
-num_ftrs = model_ft.fc.in_features
-model_ft.fc = nn.Linear(num_ftrs, n_class)
-'''
-
-# For not resnet model
-in_features = model_ft.get_classifier().in_features
-model_ft.reset_classifier(num_classes=n_class)
+#
+from models.model_ELU import EEGNet
+#from models.model_ReLU import EEGNet
+#from models.model_LeakyReLU import EEGNet
 ```
 ---
 
