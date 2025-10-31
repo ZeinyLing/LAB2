@@ -51,7 +51,7 @@ from models.model_ELU import DeepConvNet
 ```
 ---
 
-## Results
+## Experiment setups and result
 ### Hyper Parameters - Set1
 - **Batch size:** `64`  
 - **Learning rate:** `1e-2`  
