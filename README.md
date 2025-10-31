@@ -22,7 +22,7 @@ LAB2/
 │ 
 ├── dataloader.py        # Image preprocessing (CLAHE, resize to 512×512)
 ├── EEGNet_main.py       # Training pipeline for classification models
-├── DeepConvNe_main.py   # Training pipeline for classification models
+├── DeepConvNet_main.py   # Training pipeline for classification models
 │
 ├── plots_LAB2/          # Accuracy and Loss curves
 ├── pts_LAB2/            # Trained model weights (.pt)
