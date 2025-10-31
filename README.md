@@ -10,11 +10,11 @@ The training and testing data in BCI Competition III – IIIb.
 ```
 LAB2/
 │
-├── models              # EEGNet and DeepConvNet
+├── models/              # EEGNet and DeepConvNet
 │    ├── model_ELU
 │    ├── model_ReLU
 │    └── model_LeakyReLU
-├── data_LAB2            # Datasets
+├── data_LAB2/           # Datasets
 │    ├── S4b_train.npz
 │    ├── S4b_test.npz
 │    ├── X11b_train.npz
@@ -22,7 +22,7 @@ LAB2/
 │ 
 ├── dataloader.py        # Image preprocessing (CLAHE, resize to 512×512)
 ├── EEGNet_main.py       # Training pipeline for classification models
-├── DeepConvNet_main.py   # Training pipeline for classification models
+├── DeepConvNet_main.py  # Training pipeline for classification models
 │
 ├── plots_LAB2/          # Accuracy and Loss curves
 ├── pts_LAB2/            # Trained model weights (.pt)
