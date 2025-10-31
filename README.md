@@ -78,9 +78,12 @@ from models.model_ELU import DeepConvNet
 | **ReLU**        | **87.13%** |   83.15% |
 | **LeakyReLU**              |   86.39%   |   82.22% |
 
-<img src="plots_LAB2/ReLU_EP1000_EEG_train_accuracy.png" width="900">
-<img src="plots_LAB2/ReLU_EP1000_EEG_train_loss.png" width="900">
-<img src="plots_LAB2/ReLU_EP1000_EEG_test_accuracy.png" width="900">
-<img src="plots_LAB2/ReLU_EP1000_EEG_test_loss.png" width="900">
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <img src="plots_LAB2/ReLU_EP1000_EEG_train_accuracy.png" width="450">
+  <img src="plots_LAB2/ReLU_EP1000_EEG_train_loss.png" width="450">
+  <img src="plots_LAB2/ReLU_EP1000_EEG_test_accuracy.png" width="450">
+  <img src="plots_LAB2/ReLU_EP1000_EEG_test_loss.png" width="450">
+</div>
+
 
 
