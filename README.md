@@ -20,13 +20,13 @@ LAB2/
 │    ├── X11b_train.npz
 │    └── X11b_test.npz
 │ 
-├── dataloader.py        # Image preprocessing (CLAHE, resize to 512×512)
-├── EEGNet_main.py       # Training pipeline for classification models
-├── DeepConvNet_main.py  # Training pipeline for classification models
+├── dataloader.py        # Load data
+├── EEGNet_main.py       # Run EEGNet
+├── DeepConvNet_main.py  # Run DeepConvNet
 │
 ├── plots_LAB2/          # Accuracy and Loss curves
 ├── pts_LAB2/            # Trained model weights (.pt)
-└── Source/              # 
+└── Source/              
 ```
 ---
 ## Code EEGNet_main.py and DeepConvNet_main.py
