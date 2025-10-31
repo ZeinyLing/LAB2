@@ -61,15 +61,7 @@ in_features = model_ft.get_classifier().in_features
 model_ft.reset_classifier(num_classes=n_class)
 ```
 ---
-## Folder Descriptions
 
-| Folder | Description |
-|:--|:--|
-| `csvs/` | Training and validation logs | 
-| `cm_plot/` | Confusion matrix heatmaps | 
-| `plots/` | Accuracy & F1-score curves |
-| `pkls/` | Model weights (.pkl) | 
----
 ## Results
 ### Hyper Parameters - Set1
 - **Batch size:** `64`  
