@@ -78,8 +78,9 @@ from models.model_ELU import DeepConvNet
 | **ReLU**        | **87.13%** |   83.15% |
 | **LeakyReLU**              |   86.39%   |   82.22% |
 ---
-##Curve
-### Accuracy under Hyper Parameters - Set 2
+## Curve of Best Model 
+
+### EEGNet with ELU
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
   <img src="plots_LAB2/ReLU_EP1000_EEG_train_accuracy.png" width="240">
   <img src="plots_LAB2/ReLU_EP1000_EEG_train_loss.png" width="240">
@@ -87,7 +88,7 @@ from models.model_ELU import DeepConvNet
   <img src="plots_LAB2/ReLU_EP1000_EEG_test_loss.png" width="240">
 </div>
 
-### Accuracy under Hyper Parameters - Set 2
+### EEGNet with ReLU
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
   <img src="plots_LAB2/ReLU_EP1000_EEG_train_accuracy.png" width="240">
   <img src="plots_LAB2/ReLU_EP1000_EEG_train_loss.png" width="240">
