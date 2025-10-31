@@ -28,7 +28,6 @@ LAB2/
 ├── pts_LAB2/            # Trained model weights (.pt)
 └── Source/              # 
 ```
-- **Because of the file size limit, you can download the model weights (.pkl files) from Google Cloud :** [pkls](https://drive.google.com/drive/folders/1MaRhkFk5fxD5Tn6RfLvimDjYHDQ80gMe?usp=sharing)
 ---
 ## Code main.py
 Different models choose different ==> model_ft
