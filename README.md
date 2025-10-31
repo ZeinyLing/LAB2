@@ -36,15 +36,17 @@ For EEGNet model:
 For DeepConvNet model:
 - DeepConvNet_main.py
 ```
-#
+#You could change # to use different `Activation Function` directly.
+
+# EEGNet
 from models.model_ELU import EEGNet
 #from models.model_ReLU import EEGNet
 #from models.model_LeakyReLU import EEGNet
 
-#
-from models.model_ELU import EEGNet
-#from models.model_ReLU import EEGNet
-#from models.model_LeakyReLU import EEGNet
+# DeepConvNet
+from models.model_ELU import DeepConvNet
+#from models.model_ReLU import DeepConvNet
+#from models.model_LeakyReLU import DeepConvNet
 ```
 ---
 
