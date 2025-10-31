@@ -29,16 +29,12 @@ LAB2/
 └── Source/              # 
 ```
 ---
-## Code main.py
-Different models choose different ==> model_ft
+## Code EEGNet_main.py and DeepConvNet_main.py
+For EEGNet model:
+- EEGNet_main.py
 
-For resnet model:
-- num_ftrs = model_ft.fc.in_features \n
-- model_ft.fc = nn.Linear(num_ftrs, n_class) 
-
-For not resnet model:
-- in_features = model_ft.get_classifier().in_features
-- model_ft.reset_classifier(num_classes=n_class)
+For DeepConvNet model:
+- DeepConvNet_main.py
 ```
 # select model
 model_select = 'vgg16'
