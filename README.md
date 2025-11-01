@@ -81,7 +81,7 @@ from models.model_ELU import DeepConvNet
 ## Curve of Best Model 
 
 ### EEGNet with ELU
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+<div style="display: flex; flex-wrap: wrap; gap: 5px;">
   <img src="plots_LAB2/ELU_EP1000_EEG_train_accuracy.png" width="220">
   <img src="plots_LAB2/ELU_EP1000_EEG_train_loss.png" width="220">
   <img src="plots_LAB2/ELU_EP1000_EEG_test_accuracy.png" width="220">
@@ -89,7 +89,7 @@ from models.model_ELU import DeepConvNet
 </div>
 
 ### EEGNet with ReLU
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+<div style="display: flex; flex-wrap: wrap; gap: 5px;">
   <img src="plots_LAB2/ReLU_EP1000_EEG_train_accuracy.png" width="220">
   <img src="plots_LAB2/ReLU_EP1000_EEG_train_loss.png" width="220">
   <img src="plots_LAB2/ReLU_EP1000_EEG_test_accuracy.png" width="220">
